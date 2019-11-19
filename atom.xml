@@ -1,24 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nemo7.coding.me/tcoding</id>
-    <title>Tcoding</title>
-    <updated>2019-11-16T07:56:53.489Z</updated>
+    <title>T-coding</title>
+    <updated>2019-11-19T08:09:59.240Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nemo7.coding.me/tcoding"/>
     <link rel="self" href="https://nemo7.coding.me/tcoding/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>好的产品要经过三个台阶：一个是音乐的，这时它被构思；一个是建筑的，这时它被搭建起来；最后一个是纺织的，这时它被织成。</subtitle>
     <logo>https://nemo7.coding.me/tcoding/images/avatar.png</logo>
     <icon>https://nemo7.coding.me/tcoding/favicon.ico</icon>
-    <rights>All rights reserved 2019, Tcoding</rights>
+    <rights>All rights reserved 2019, T-coding</rights>
     <entry>
-        <title type="html"><![CDATA[2131]]></title>
-        <id>https://nemo7.coding.me/tcoding/post/2131</id>
-        <link href="https://nemo7.coding.me/tcoding/post/2131">
+        <title type="html"><![CDATA[天环冷链]]></title>
+        <id>https://nemo7.coding.me/tcoding/post/tianhuan</id>
+        <link href="https://nemo7.coding.me/tcoding/post/tianhuan">
+        </link>
+        <updated>2019-11-19T08:09:12.000Z</updated>
+        <content type="html"><![CDATA[<p>天环冷链</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宏儒工程ERP]]></title>
+        <id>https://nemo7.coding.me/tcoding/post/hongru</id>
+        <link href="https://nemo7.coding.me/tcoding/post/hongru">
+        </link>
+        <updated>2019-11-19T08:08:48.000Z</updated>
+        <content type="html"><![CDATA[<p>宏儒工程ERP</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[镜人Club]]></title>
+        <id>https://nemo7.coding.me/tcoding/post/jingrenclub</id>
+        <link href="https://nemo7.coding.me/tcoding/post/jingrenclub">
+        </link>
+        <updated>2019-11-19T08:08:20.000Z</updated>
+        <content type="html"><![CDATA[<p>镜人Club</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[蓝工保]]></title>
+        <id>https://nemo7.coding.me/tcoding/post/langongbao</id>
+        <link href="https://nemo7.coding.me/tcoding/post/langongbao">
         </link>
         <updated>2019-11-16T02:45:45.000Z</updated>
-        <content type="html"><![CDATA[<p>3213233多撒大送达<br>
-大大大打<img src="https://nemo7.coding.me/tcoding/post-images/1573872365665.png" alt=""><br>
-大萨达</p>
+        <content type="html"><![CDATA[<p>颜色搭配常识：<br>
+1.网页中色彩的表达使用三种颜色，及红(R)、绿(G)、蓝(B)，及通常所说的RGB色彩，它包含了人类所感知的所有颜色，网页中表达颜色如下（红色为例）RGB格式：红色是(255,0,0) 或十六进制hex格式为(FF0000)<br>
+<img src="https://nemo7.coding.me/tcoding/post-images/1573872365665.png" alt=""><br>
+3.颜色分非彩色和彩色两类。非彩色是指黑，白，灰系统色。彩色是指除了非彩色以外的所有色彩。通常内容文字用非彩色(黑色)，边框，背景，图片用彩色。所以即使页面丰富，看内容依然不会眼花,通常背景与内容对比要大。</p>
 ]]></content>
     </entry>
     <entry>

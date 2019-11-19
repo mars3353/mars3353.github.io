@@ -1,163 +1,120 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>Tcoding</title>
-<meta name="description" content="温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="T-coding 王庭" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>T-coding</title>
+<link rel="shortcut icon" href="https://nemo7.coding.me/tcoding/favicon.ico?v=1574150964719">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://nemo7.coding.me/tcoding/favicon.ico?v=1573891009743">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://nemo7.coding.me/tcoding/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://nemo7.coding.me/tcoding">
-        <img src="https://nemo7.coding.me/tcoding/images/avatar.png?v=1573891009743" class="site-logo">
-        <h1 class="site-title">Tcoding</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      温故而知新
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nemo7.coding.me/tcoding/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://nemo7.coding.me/tcoding/post/2131">
-                  <h2 class="post-title">2131</h2>
+
+</head>
+<body>
+<div class="main">
+    <div class="main-content">
+        <div class="index-header">
+            <div class="title-container">
+                <a href="https://nemo7.coding.me/tcoding">
+                    <img class="avatar" src="https://nemo7.coding.me/tcoding/images/avatar.png?v=1574150964719"
+                         alt="">
                 </a>
-                <div class="post-date">
-                  2019-11-16
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://nemo7.coding.me/tcoding/post/hello-gridea">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://nemo7.coding.me/tcoding/post/hello-gridea">
-                  <div class="feature-container" style="background-image: url('https://nemo7.coding.me/tcoding/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
+                <h1 class="site-title">
+                    T-Coding
+                </h1>
+            </div>
+            <div class="banner">
+            <div class="site-slogan">
+                <h1>将您的业务数字化</h1>
+                <p>从零到一的快速软件产品开发服务</p>
+            </div>
+            <div class="banner-img"><img src="https://nemo7.coding.me/tcoding/images/banner.png" alt=""></div>
+            </div>
+            <div class="index-btns">
+                <a class="contact-btn" target="_blank" href="https://www.wenjuan.com/s/RBVZza/">联系合作</a>
+                <a class="case-btn" href="#projects">查看近期项目 →</a>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <div class="divider"></div>
 
-<script type="application/javascript">
+        <div class="index-block">
+            <h2 class="block-title">服务特色</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="icon"><img src="https://nemo7.coding.me/tcoding/images/platforms.png"></div>
+                    <h3>基于网站或小程序</h3>
+                    <p class="desc hide-sm">我们的快速软件开发服务专注于Web和小程序领域。</p>
+                </div>
 
-AOS.init();
+                <div class="feature">
+                    <div class="icon"><img src="https://nemo7.coding.me/tcoding/images/design.png"></div>
+                    <h3>优雅的设计</h3>
+                    <p class="desc hide-sm">我们与您共同探讨业务流程，确保产品符合预期。</p></div>
 
-hljs.initHighlightingOnLoad()
+                <div class="feature">
+                    <div class="icon"><img src="https://nemo7.coding.me/tcoding/images/timerange.png"></div>
+                    <h3>一到两周上线</h3>
+                    <p class="desc hide-sm">快速到底有多快？<br>通常来说就是15到30天。</p></div>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+                <div class="feature">
+                    <div class="icon"><img src="https://nemo7.coding.me/tcoding/images/hourrate.png">
+                    </div>
+                    <h3>公平透明的价格</h3>
+                    <p class="desc hide-sm">以实际开发时间计费，总价一般在三万元到十万元之间。</p></div>
 
+            </div>
+        </div>
+        <div class="index-block">
+            <h2 class="block-title" id="projects">近期项目</h2>
+            <div class="projects">
+                <a class="project" href="https://nemo7.coding.me/tcoding/post/langongbao" target="_blank">
+                    <div class="icon"><img class="gift" src="https://nemo7.coding.me/tcoding/images/langongbao.png">
+                    </div>
+                    <h3>蓝工保</h3>
+                    <p class="desc hide-sm">专注劳务的互联网保险产品</p>
+                </a>
+                <a class="project" href="https://nemo7.coding.me/tcoding/post/jingrenclub" target="_blank">
+                    <div class="icon"><img class="gift" src="https://nemo7.coding.me/tcoding/images/jingren.png">
+                    </div>
+                    <h3>镜人Club</h3>
+                    <p class="desc hide-sm">眼镜行业B2B服务平台</p>
+                </a>
+                <a class="project" href="https://nemo7.coding.me/tcoding/post/hongru" target="_blank">
+                    <div class="icon"><img class="gift" src="https://nemo7.coding.me/tcoding/images/hongru.png">
+                    </div>
+                    <h3>宏儒工程ERP</h3>
+                    <p class="desc hide-sm">建筑工程类项目管理系统</p>
+                </a>
+                <a class="project" href="https://nemo7.coding.me/tcoding/post/tianhuan" target="_blank">
+                    <div class="icon"><img class="gift" src="https://nemo7.coding.me/tcoding/images/tianhuan.png">
+                    </div>
+                    <h3>天环冷链</h3>
+                    <p class="desc hide-sm">仓储配送物流信息化平台</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+
+        <div class="site-footer">
+  Say 👋 at hello@t-coding.net  /
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
