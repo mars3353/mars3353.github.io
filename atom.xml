@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nemo7.coding.me/tcoding</id>
     <title>T-coding</title>
-    <updated>2019-11-19T09:14:43.962Z</updated>
+    <updated>2019-11-20T03:45:27.454Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nemo7.coding.me/tcoding"/>
     <link rel="self" href="https://nemo7.coding.me/tcoding/atom.xml"/>
@@ -43,10 +43,47 @@
         <link href="https://nemo7.coding.me/tcoding/post/langongbao">
         </link>
         <updated>2019-11-16T02:45:45.000Z</updated>
-        <content type="html"><![CDATA[<p>颜色搭配常识：<br>
-1.网页中色彩的表达使用三种颜色，及红(R)、绿(G)、蓝(B)，及通常所说的RGB色彩，它包含了人类所感知的所有颜色，网页中表达颜色如下（红色为例）RGB格式：红色是(255,0,0) 或十六进制hex格式为(FF0000)<br>
-<img src="https://nemo7.coding.me/tcoding/post-images/1573872365665.png" alt=""><br>
-3.颜色分非彩色和彩色两类。非彩色是指黑，白，灰系统色。彩色是指除了非彩色以外的所有色彩。通常内容文字用非彩色(黑色)，边框，背景，图片用彩色。所以即使页面丰富，看内容依然不会眼花,通常背景与内容对比要大。</p>
+        <content type="html"><![CDATA[<p>蓝工保是圣源复集团投资的，一家致力于人力资源行业定制雇主责任险的初创公司。<br>
+由于当下正好是灵活用工的风口，所以前期业务的增长速度非常的快，甚至超过了管理层最乐观的预期。</p>
+<blockquote>
+<p><strong>短短1个月的时间，在保人数已经突破20000了。</strong></p>
+</blockquote>
+<hr>
+<p>接下来甜蜜的烦恼出现了，<br>
+业务增长太快内部来不及处理。</p>
+<p>雇主责任险的保单名单通常每天都在变化。大量的变动数据、名单的整理、费用的核算、跟太平洋保险的对接，这让他们每天要忙到凌晨。<br>
+更糟糕的是，依然会有很多的错误数据，混淆的名单，导致用户对蓝工保产品有不好的印象。</p>
+<hr>
+<h2 id="建立标准的保单数据管理系统方便客户也解放自己">建立标准的保单数据管理系统，方便客户也解放自己</h2>
+<p>为了解决数据管理和效率问题，我们立即着手开发了 <strong>蓝工保运营管理系统</strong>。<br>
+我们前期的设计思路是：</p>
+<ol>
+<li>我们帮客户创建系统账户，录入保单方案</li>
+<li>客户登陆后通过系统提供的标准excel模板进行投保、退保的操作</li>
+<li>客户可以直观的看到保单的方案、即时名单、费用，导出名单</li>
+<li>内部人员在管理后台监控所有客户的投退保情况，一键确认</li>
+<li>系统自动判断用户录入的数据的合法性（身份证信息、是否重复投保等）</li>
+<li>系统自动核算费用，财务录入用户付款记录</li>
+<li>系统一键生成PDF的投保证明</li>
+</ol>
+<p>我们觉得以上就是当下这项业务的核心需求。<br>
+目前系统已经实现了上述功能，团队内部也完成了旧数据从手工excel到系统数据的过渡。</p>
+<blockquote>
+<p>系统上线了，大家终于不用那么累了。</p>
+</blockquote>
+<p>系统带来的效率提升非常明显，上游的太平洋保险主管也为此点赞。<br>
+接下来系统还将继续迭代<br>
+下一步我们计划做这些：</p>
+<ol>
+<li>由于产品推广的多元化，业务员模块要加入</li>
+<li>跟太平洋保险系统的API数据对接也在计划当中</li>
+<li>业务数据的分析（Data analysis）</li>
+<li>部分功能基于手机端（公众号、小程序）的开发</li>
+<li>......</li>
+</ol>
+<blockquote>
+<p>蓝工保还是个年轻的产品，我们希望陪ta一起健康长大。</p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
