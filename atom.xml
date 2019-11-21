@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://nemo7.coding.me/tcoding</id>
+    <id>https://mars3353.github.io/</id>
     <title>T-coding</title>
-    <updated>2019-11-21T02:25:08.150Z</updated>
+    <updated>2019-11-21T03:52:12.577Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://nemo7.coding.me/tcoding"/>
-    <link rel="self" href="https://nemo7.coding.me/tcoding/atom.xml"/>
+    <link rel="alternate" href="https://mars3353.github.io/"/>
+    <link rel="self" href="https://mars3353.github.io//atom.xml"/>
     <subtitle>好的产品要经过三个台阶：一个是音乐的，这时它被构思；一个是建筑的，这时它被搭建起来；最后一个是纺织的，这时它被织成。</subtitle>
-    <logo>https://nemo7.coding.me/tcoding/images/avatar.png</logo>
-    <icon>https://nemo7.coding.me/tcoding/favicon.ico</icon>
+    <logo>https://mars3353.github.io//images/avatar.png</logo>
+    <icon>https://mars3353.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, T-coding</rights>
     <entry>
         <title type="html"><![CDATA[天环冷链]]></title>
-        <id>https://nemo7.coding.me/tcoding/post/tianhuan</id>
-        <link href="https://nemo7.coding.me/tcoding/post/tianhuan">
+        <id>https://mars3353.github.io//post/tianhuan</id>
+        <link href="https://mars3353.github.io//post/tianhuan">
         </link>
         <updated>2019-11-19T08:09:12.000Z</updated>
-        <content type="html"><![CDATA[<p>内容整理中...</p>
+        <content type="html"><![CDATA[<p><img src="https://mars3353.github.io//post-images/1574303406394.jpg" alt=""><br>
+内容整理中...</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[宏儒工程ERP]]></title>
-        <id>https://nemo7.coding.me/tcoding/post/hongru</id>
-        <link href="https://nemo7.coding.me/tcoding/post/hongru">
+        <id>https://mars3353.github.io//post/hongru</id>
+        <link href="https://mars3353.github.io//post/hongru">
         </link>
         <updated>2019-11-19T08:08:48.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
 <p>昆山宏儒工程有限公司成立于2002年4月，是拥有一群学有专精之设计师、工程师所组成的专业团队。<br>
 公司占地面积20亩，总建筑面积20000平方米，拥有外企机电设备安装工程专业承包三级资质，ISO9001质量体系认证，总承包一级资质。为客户在中国投资提供具有专业水准的工业厂房、机电、空调工程规划、设计、 施工、维护保养一条龙服务。</p>
 </blockquote>
-<p><img src="https://nemo7.coding.me/tcoding/post-images/1574300426971.jpg" alt=""><br>
+<p><img src="https://mars3353.github.io//post-images/1574300426971.jpg" alt=""><br>
 简单来说，宏儒工程是一家来自台湾的大型建筑工程施工公司。</p>
 <h3 id="面临的问题是什么">面临的问题是什么？</h3>
 <p>创始人黄总在多年前就归纳了一套工程类公司内部管理流程。这是一套基于excel和纸质表单的各类单据的合集。主要有工程承揽到设计清单、发包、询价、采购、入库、调拨、现场领料、发票、估验、收款等等一系列环节的管控和记录。<br>
 这种传统的方式支撑了公司运作很多年，黄总本人也很引以为豪。<br>
-随着业务的不断增长，以及内部的项目部越来越多。重复请款、库存滥用、超量采购等问题开始浮现了。<br>
-黄总觉得需要将之前的这套流程软件化，让计算机系统来管控请款、领料、采购，并且让数据直观化。从而缩减公司的无谓支出，提升项目盈利。<br>
+随着业务的不断增长，以及内部的项目部越来越多。重复请款、库存滥用、超量采购等问题开始浮现了。</p>
+<h3 id="变革">变革</h3>
+<p>黄总觉得需要将之前的这套流程软件化，让计算机系统来管控请款、领料、采购，并且让数据直观化。从而缩减公司的无谓支出，提升项目盈利。<br>
 于是各部门负责人被召集到一起，大家坐下来一步一步的讨论需求，一张一张的分析表单，来来回回的修改流程。<br>
 直到6个月后，系统才正式上线。很曲折，也很值得。<br>
-<img src="https://nemo7.coding.me/tcoding/post-images/1574303091520.jpg" alt=""><br>
+<img src="https://mars3353.github.io//post-images/1574304863527.jpg" alt=""><br>
 系统主要实现了以下几点：</p>
 <ol>
 <li>企业级的ERP架构，多级权限、多维度的数据域控制，完整的业务日志</li>
 <li>基于Ext.js的前端实现，MVC/MVVM架构，前端组件化</li>
 <li>大部分表单UI基于原纸质表单设计，降低使用人员的学习成本</li>
-<li>丰富的业务数据管控。金额是否超标、价格是否可见等等</li>
+<li>丰富的业务数据管控。例如金额是否超标、价格是否可见等等</li>
 <li>自定义单据审批流</li>
 <li>...</li>
 </ol>
-<p>（鉴于客户隐私，就不演示系统画面了）<br>
-第一次做企业级的系统，从开始的忐忑到中间的艰辛到最后的圆满。也算是一次突破吧🙃<br>
-目前系统已经运行快一年了，后续可能还有一些BI的开发<br>
+<figure data-type="image" tabindex="1"><img src="https://mars3353.github.io//post-images/1574305470002.jpg" alt=""></figure>
+<p>（鉴于客户隐私，就不演示系统画面了）</p>
+<p>第一次做企业级的系统，从开始的忐忑到中间的艰辛到最后的圆满。也算是一次突破吧🙃<br>
+感谢最初客户的信任和鼓励。<br>
+目前系统已经运行快一年了，后续可能还有一些BI的开发。<br>
 一起加油吧❤️</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[镜人Club]]></title>
-        <id>https://nemo7.coding.me/tcoding/post/jingrenclub</id>
-        <link href="https://nemo7.coding.me/tcoding/post/jingrenclub">
+        <id>https://mars3353.github.io//post/jingrenclub</id>
+        <link href="https://mars3353.github.io//post/jingrenclub">
         </link>
         <updated>2019-11-19T08:08:20.000Z</updated>
         <content type="html"><![CDATA[<h2 id="镜人club是什么">「镜人Club」是什么？</h2>
@@ -66,7 +70,7 @@
 </blockquote>
 <p>创始人朱总是我的朋友。他是一个眼镜行业的老兵，深谙行业的运作模式，供应链、门店、品牌关系等等。<br>
 他想要用移动互联网（APP）来改变传统的供应链到眼镜门店的铺货方式。<br>
-<img src="https://nemo7.coding.me/tcoding/post-images/1574234289830.png" alt=""><br>
+<img src="https://mars3353.github.io//post-images/1574234289830.png" alt=""><br>
 后来，我们用2个月的时间打造了镜人Club。<br>
 镜人Club主要实现了以下几点：</p>
 <ol>
@@ -76,16 +80,16 @@
 <li>库存、物流等系统数据互通</li>
 <li>...</li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="https://nemo7.coding.me/tcoding/post-images/1574234381478.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://mars3353.github.io//post-images/1574234381478.png" alt=""></figure>
 <p>🥞就在前几天，镜人Club已经3周岁了<br>
 ❤️希望ta未来能保持增长,越来越好~</p>
-<figure data-type="image" tabindex="2"><img src="https://nemo7.coding.me/tcoding/post-images/1574234879814.jpg?w/140" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://mars3353.github.io//post-images/1574234879814.jpg?w/140" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[蓝工保]]></title>
-        <id>https://nemo7.coding.me/tcoding/post/langongbao</id>
-        <link href="https://nemo7.coding.me/tcoding/post/langongbao">
+        <id>https://mars3353.github.io//post/langongbao</id>
+        <link href="https://mars3353.github.io//post/langongbao">
         </link>
         <updated>2019-11-16T02:45:45.000Z</updated>
         <content type="html"><![CDATA[<p>蓝工保是圣源复集团投资的，一家致力于人力资源行业定制雇主责任险的初创公司。<br>
@@ -93,7 +97,8 @@
 <blockquote>
 <p><strong>短短1个月的时间，在保人数已经突破20000了。</strong></p>
 </blockquote>
-<figure data-type="image" tabindex="1"><img src="https://nemo7.coding.me/tcoding/post-images/1574231978573.jpg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://mars3353.github.io//post-images/1574231978573.jpg" alt=""></figure>
+<h3 id="面临的问题是什么">面临的问题是什么？</h3>
 <p>接下来甜蜜的烦恼出现了，<br>
 业务增长太快内部来不及处理。</p>
 <p>雇主责任险的保单名单通常每天都在变化。大量的变动数据、名单的整理、费用的核算、跟太平洋保险的对接，这让他们每天要忙到凌晨。<br>
@@ -116,18 +121,18 @@
 <blockquote>
 <p><strong>系统上线了，大家终于不用那么累了。</strong></p>
 </blockquote>
-<figure data-type="image" tabindex="2"><img src="https://nemo7.coding.me/tcoding/post-images/1574230040146.jpg" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://mars3353.github.io//post-images/1574230040146.jpg" alt=""></figure>
 <p>系统带来的效率提升非常明显，上游的太平洋保险主管也为此点赞。<br>
 接下来系统还将继续迭代<br>
 下一步我们计划做这些：</p>
 <ol>
-<li>由于产品推广的多元化，业务员模块要加入</li>
+<li>由于产品推广的多元化，业务员、地区代理商模块要加入</li>
 <li>跟太平洋保险系统的API数据对接也在计划当中</li>
 <li>业务数据的分析（Data analysis）</li>
 <li>部分功能基于手机端（公众号、小程序）的开发</li>
 <li>......</li>
 </ol>
-<figure data-type="image" tabindex="3"><img src="https://nemo7.coding.me/tcoding/post-images/1574222362255.jpg" alt=""></figure>
+<figure data-type="image" tabindex="3"><img src="https://mars3353.github.io//post-images/1574222362255.jpg" alt=""></figure>
 <blockquote>
 <p><strong>蓝工保还是个年轻的产品，我们希望陪ta一起健康长大。</strong></p>
 </blockquote>
@@ -135,8 +140,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://nemo7.coding.me/tcoding/post/hello-gridea</id>
-        <link href="https://nemo7.coding.me/tcoding/post/hello-gridea">
+        <id>https://mars3353.github.io//post/hello-gridea</id>
+        <link href="https://mars3353.github.io//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
