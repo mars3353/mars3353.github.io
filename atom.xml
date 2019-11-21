@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nemo7.coding.me/tcoding</id>
     <title>T-coding</title>
-    <updated>2019-11-21T02:15:29.932Z</updated>
+    <updated>2019-11-21T02:25:08.150Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nemo7.coding.me/tcoding"/>
     <link rel="self" href="https://nemo7.coding.me/tcoding/atom.xml"/>
@@ -38,7 +38,7 @@
 黄总觉得需要将之前的这套流程软件化，让计算机系统来管控请款、领料、采购，并且让数据直观化。从而缩减公司的无谓支出，提升项目盈利。<br>
 于是各部门负责人被召集到一起，大家坐下来一步一步的讨论需求，一张一张的分析表单，来来回回的修改流程。<br>
 直到6个月后，系统才正式上线。很曲折，也很值得。<br>
-<img src="https://nemo7.coding.me/tcoding/post-images/1574302509788.jpg" alt=""><br>
+<img src="https://nemo7.coding.me/tcoding/post-images/1574303091520.jpg" alt=""><br>
 系统主要实现了以下几点：</p>
 <ol>
 <li>企业级的ERP架构，多级权限、多维度的数据域控制，完整的业务日志</li>
